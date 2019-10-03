@@ -34,12 +34,12 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-
-
+"GET /person/create": "PersonController.create",
+"POST /person/create": "PersonController.create",
 
  'GET /person/view/:id': 'PersonController.view',
 
-
+ 'POST /person//:id': 'PersonController.delete',
 
  'POST /person/delete/:id': 'PersonController.delete',
 
